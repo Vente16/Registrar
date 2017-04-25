@@ -34,9 +34,10 @@
     <div class="container">
         <div>
       
-            <input type="text" placeholder="Codigo del Producto" class="campos" id="codigo" >
+            <input type="text" placeholder="Codigo del Producto" class="campos" id="codigo" > 
             <br><br>
                 <input type="number" placeholder="Cantidad del Producto" class="campos" id="cantidad">
+                <div id="Validar"></div>
                 <br><br>
 
                 <button type="button" class="btn btn-success Agregar">AGREGAR</button>
