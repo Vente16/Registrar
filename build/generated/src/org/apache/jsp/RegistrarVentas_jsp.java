@@ -89,7 +89,7 @@ public final class RegistrarVentas_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("                    <span class=\"icon-bar\"></span>\r\n");
       out.write("                    <span class=\"icon-bar\"></span>\r\n");
       out.write("                </button>\r\n");
-      out.write("                <img src=\"../img/logo.png\" width=\"50px\" style=\"vertical-align: middle; float: left;\" alt=\"\">\r\n");
+      out.write("                <img src=\"img/logolj.png\" width=\"50px\" style=\"vertical-align: middle; float: left;\" alt=\"\">\r\n");
       out.write("                <a class=\"navbar-brand\" href=\"#\">LA JUGOSA</a>\r\n");
       out.write("            </div>\r\n");
       out.write("\r\n");
@@ -174,9 +174,10 @@ public final class RegistrarVentas_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("    <div class=\"container\">\r\n");
       out.write("        <div>\r\n");
       out.write("      \r\n");
-      out.write("            <input type=\"text\" placeholder=\"Codigo del Producto\" class=\"campos\" id=\"codigo\" >\r\n");
+      out.write("            <input type=\"text\" placeholder=\"Codigo del Producto\" class=\"campos\" id=\"codigo\" > \r\n");
       out.write("            <br><br>\r\n");
       out.write("                <input type=\"number\" placeholder=\"Cantidad del Producto\" class=\"campos\" id=\"cantidad\">\r\n");
+      out.write("                <div id=\"Validar\"></div>\r\n");
       out.write("                <br><br>\r\n");
       out.write("\r\n");
       out.write("                <button type=\"button\" class=\"btn btn-success Agregar\">AGREGAR</button>\r\n");

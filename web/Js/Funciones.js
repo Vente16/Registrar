@@ -18,18 +18,18 @@ $(document).ready(function () {
 
                 $('tbody tr').each(function (valor) {
 
-                    var ArregloProductos = {};
+                    var Productos = {};
                     var Columna = $(this).find('td');
 
-                    ArregloProductos.Codigo = Columna.filter(':eq(0)').text();
-                    ArregloProductos.Nombre = Columna.filter(':eq(1)').text();
-                    ArregloProductos.Cantidad = Columna.filter(':eq(2)').text();
-                    ArregloProductos.Precio = Columna.filter(':eq(3)').text();
-                    ArregloProductos.Total = Columna.filter(':eq(4)').text();
-                    ArregloProductos.Iva = Columna.filter(':eq(5)').text();
-                    ArregloProductos.Costo = parseInt(Columna.filter(':eq(6)').text());
+                    Productos.Codigo = Columna.filter(':eq(0)').text();
+                    Productos.Nombre = Columna.filter(':eq(1)').text();
+                    Productos.Cantidad = Columna.filter(':eq(2)').text();
+                    Productos.Precio = Columna.filter(':eq(3)').text();
+                    Productos.Total = Columna.filter(':eq(4)').text();
+                    Productos.Iva = Columna.filter(':eq(5)').text();
+                    Productos.Costo = parseInt(Columna.filter(':eq(6)').text());
 
-                    productos.push(ArregloProductos);
+                    productos.push(Productos);
                 });
 
 
@@ -48,7 +48,9 @@ $(document).ready(function () {
                 $('#Total').html(sum);
                 console.log(Suma);
 
-
+                var datos = JSON.stringify(Suma);
+                
+                console.log(datos);
                 $('#Validar').remove();
 
                 $('.Eliminar').click(function () {
