@@ -1,0 +1,18 @@
+SMAP
+RegistrarVentas_jsp.java
+JSP
+*S JSP
+*F
++ 0 RegistrarVentas.jsp
+RegistrarVentas.jsp
++ 1 headerModulos.jspf
+headerModulos.jspf
++ 2 footerModulos.jspf
+footerModulos.jspf
+*L
+5,26:50
+1#1,95:76
+30#0,59:170
+1#2,14:228
+88#0,4:241
+*E
